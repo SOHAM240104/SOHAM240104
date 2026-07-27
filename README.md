@@ -102,14 +102,12 @@ End-to-end voice layer on top of an agentic assistant: **fine-tuned Whisper** fo
 
 <div align="center">
 
-<a href="https://github.com/ryo-ma/github-profile-trophy">
-  <img src="https://github-profile-trophy.vercel.app/?username=SOHAM240104&theme=darkhub&no-frame=true&row=1&column=7&margin-w=8&margin-h=8" alt="GitHub Trophies"/>
-</a>
+<img src="https://github-profile-summary-cards.vercel.app/api/cards/profile-details?username=SOHAM240104&theme=github_dark" alt="Profile details"/>
 
 <br/>
 
-<img height="180" src="https://github-readme-stats.vercel.app/api?username=SOHAM240104&show_icons=true&theme=dark&hide_border=true&include_all_commits=true&count_private=true&bg_color=0D1117&title_color=58A6FF&icon_color=58A6FF&text_color=C9D1D9&ring_color=58A6FF" alt="GitHub Stats"/>
-<img height="180" src="https://github-readme-stats.vercel.app/api/top-langs/?username=SOHAM240104&layout=compact&theme=dark&hide_border=true&langs_count=8&bg_color=0D1117&title_color=58A6FF&text_color=C9D1D9" alt="Top Languages"/>
+<img height="165" src="https://github-readme-stats.shion.dev/api?username=SOHAM240104&show_icons=true&theme=dark&hide_border=true&include_all_commits=true&count_private=true&bg_color=0D1117&title_color=58A6FF&icon_color=58A6FF&text_color=C9D1D9&ring_color=58A6FF" alt="GitHub Stats"/>
+<img height="165" src="https://github-readme-stats.shion.dev/api/top-langs/?username=SOHAM240104&layout=compact&theme=dark&hide_border=true&langs_count=8&bg_color=0D1117&title_color=58A6FF&text_color=C9D1D9" alt="Top Languages"/>
 
 <br/>
 
@@ -117,11 +115,18 @@ End-to-end voice layer on top of an agentic assistant: **fine-tuned Whisper** fo
 
 <br/>
 
+<img width="49%" src="https://github-profile-summary-cards.vercel.app/api/cards/stats?username=SOHAM240104&theme=github_dark" alt="Stats card"/>
+<img width="49%" src="https://github-profile-summary-cards.vercel.app/api/cards/repos-per-language?username=SOHAM240104&theme=github_dark" alt="Repos per language"/>
+<img width="49%" src="https://github-profile-summary-cards.vercel.app/api/cards/most-commit-language?username=SOHAM240104&theme=github_dark" alt="Most commit language"/>
+<img width="49%" src="https://github-profile-summary-cards.vercel.app/api/cards/productive-time?username=SOHAM240104&theme=github_dark&utcOffset=5.5" alt="Productive time"/>
+
+<br/>
+
 <img width="100%" src="https://github-readme-activity-graph.vercel.app/graph?username=SOHAM240104&bg_color=0D1117&color=58A6FF&line=58A6FF&point=FFFFFF&area=true&area_color=58A6FF&hide_border=true&custom_title=commit%20activity" alt="Commit Activity Graph"/>
 
 <br/>
 
-<img src="https://raw.githubusercontent.com/SOHAM240104/SOHAM240104/output/github-contribution-grid-snake-dark.svg" alt="Snake contribution graph" />
+<img src="https://raw.githubusercontent.com/SOHAM240104/SOHAM240104/output/github-contribution-grid-snake-dark.svg" alt="Snake contribution graph"/>
 
 </div>
 
