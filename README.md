@@ -2,7 +2,7 @@
 
 # Soham
 
-**Software & AI Engineer** — building systems that see, listen, and reason
+[![Typing SVG](https://readme-typing-svg.demolab.com?font=JetBrains+Mono&weight=600&size=22&duration=3500&pause=900&color=58A6FF&center=true&vCenter=true&width=700&height=40&lines=Software+%26+AI+Engineer;Multi-modal+AI+%C2%B7+Agentic+Workflows;Energy+Forecasting+%C2%B7+Deepfake+Forensics)](https://github.com/SOHAM240104)
 
 I work on **multi-modal AI**, **agentic workflows**, **probabilistic ML**, and **backends that stay fast under real load**.  
 Most days I'm wiring models into products people can actually trust — energy market forecasting, deepfake forensics, disaster response, voice interfaces.
