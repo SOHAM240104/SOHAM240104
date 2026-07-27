@@ -1,13 +1,13 @@
 <div align="center">
 
-# hey, I'm Soham
+# Soham
 
-**Software & AI Engineer** · building systems that see, listen, and reason
+**Software & AI Engineer** — building systems that see, listen, and reason
 
 I work on **multi-modal AI**, **agentic workflows**, **probabilistic ML**, and **backends that stay fast under real load**.  
 Most days I'm wiring models into products people can actually trust — energy market forecasting, deepfake forensics, disaster response, voice interfaces.
 
-*Anna University (CEG) · building in the open @ [SOHAM240104](https://github.com/SOHAM240104)*
+*Anna University (CEG) — building in the open @ [SOHAM240104](https://github.com/SOHAM240104)*
 
 <br/>
 
@@ -47,7 +47,7 @@ I also care about the unglamorous half: clean APIs, deploy gates, and pipelines 
 
 <br/>
 
-#### 01 · Energy Market Forecasting & VPPA Analytics
+#### 01. Energy Market Forecasting & VPPA Analytics
 > *A single price point isn't enough — buyers need bands, paths, and settlement risk they can negotiate with.*
 
 Production Django backend for **Indian electricity market analytics**: short-term **IEX DAM** forecasts with P10/P50/P90 bands, long-horizon CAGR vs Ornstein–Uhlenbeck paths, and a **VPPA Monte Carlo** engine (1,000 reproducible paths → settlement distributions). Wrapped with a RAG + tool-calling assistant so operators can ask the market questions without leaving the product.
@@ -64,7 +64,7 @@ Production Django backend for **Indian electricity market analytics**: short-ter
 
 <br/>
 
-#### 02 · Multimodal Disinformation & Scam Verification Engine
+#### 02. Multimodal Disinformation & Scam Verification Engine
 > *When a clip looks real and a message feels urgent — I want the system to leave receipts, not vibes.*
 
 Built a verification stack that fuses **audio-only** and **audio-visual** deepfake signals (NOMA + AVH-Align / AV-HuBERT), then layers in scam / claim checking for text and screenshots. Scores are calibrated and fused with reliability weighting; optional **Grad-CAM** mouth-ROI overlays and an **evidence bundle** (hashes, extracted audio, ROI video, predictions) make outputs reviewable — not just a red/green badge.
@@ -81,7 +81,7 @@ Built a verification stack that fuses **audio-only** and **audio-visual** deepfa
 
 <br/>
 
-#### 03 · YOLOv8 Real-time Disaster Response & Pathfinding System
+#### 03. YOLOv8 Real-time Disaster Response & Pathfinding System
 > *Detect first. Route second. Seconds matter when the map is changing.*
 
 Computer-vision pipeline for on-the-ground disaster scenes: **YOLOv8** for real-time hazard / victim / obstacle detection, paired with graph-based **pathfinding** so responders get actionable routes — not just bounding boxes. Informed by geospatial risk work (multi-source landslide assessment) and earlier campus navigation graphs in C++.
@@ -98,7 +98,7 @@ Computer-vision pipeline for on-the-ground disaster scenes: **YOLOv8** for real-
 
 <br/>
 
-#### 04 · LLM-Enhanced Voice Interface with Fine-Tuned Whisper
+#### 04. LLM-Enhanced Voice Interface with Fine-Tuned Whisper
 > *Voice should feel like talking to a patient friend — not fighting an IVR.*
 
 End-to-end voice layer on top of an agentic assistant: **fine-tuned Whisper** for robust ASR, then LLM + tool-calling for intent, retrieval, and calm replies. Same spirit as the Saksham / Care work — short sentences, mode-aware routing (support vs scam), and tools preferred over guessing.
@@ -119,29 +119,12 @@ End-to-end voice layer on top of an agentic assistant: **fine-tuned Whisper** fo
 
 <div align="center">
 
-<img src="https://github-profile-summary-cards.vercel.app/api/cards/profile-details?username=SOHAM240104&theme=github_dark" alt="Profile details"/>
-
-<br/>
-
-<img height="165" src="https://github-readme-stats.shion.dev/api?username=SOHAM240104&show_icons=true&theme=dark&hide_border=true&include_all_commits=true&count_private=true&bg_color=0D1117&title_color=58A6FF&icon_color=58A6FF&text_color=C9D1D9&ring_color=58A6FF" alt="GitHub Stats"/>
-<img height="165" src="https://github-readme-stats.shion.dev/api/top-langs/?username=SOHAM240104&layout=compact&theme=dark&hide_border=true&langs_count=8&bg_color=0D1117&title_color=58A6FF&text_color=C9D1D9" alt="Top Languages"/>
-
-<br/>
-
-<img src="https://streak-stats.demolab.com?user=SOHAM240104&theme=dark&hide_border=true&background=0D1117&ring=58A6FF&fire=F78166&currStreakLabel=58A6FF&sideLabels=C9D1D9&dates=8B949E" alt="GitHub Streak"/>
-
-<br/>
-
-<img width="49%" src="https://github-profile-summary-cards.vercel.app/api/cards/repos-per-language?username=SOHAM240104&theme=github_dark" alt="Repos per language"/>
-<img width="49%" src="https://github-profile-summary-cards.vercel.app/api/cards/most-commit-language?username=SOHAM240104&theme=github_dark" alt="Most commit language"/>
+<img height="165" src="https://github-readme-stats.shion.dev/api?username=SOHAM240104&show_icons=true&theme=dark&hide_border=true&hide_rank=true&include_all_commits=true&count_private=true&bg_color=0D1117&title_color=58A6FF&icon_color=58A6FF&text_color=C9D1D9" alt="GitHub Stats"/>
+<img height="165" src="https://github-readme-stats.shion.dev/api/top-langs/?username=SOHAM240104&layout=compact&theme=dark&hide_border=true&langs_count=6&bg_color=0D1117&title_color=58A6FF&text_color=C9D1D9" alt="Top Languages"/>
 
 <br/>
 
 <img width="100%" src="https://github-readme-activity-graph.vercel.app/graph?username=SOHAM240104&bg_color=0D1117&color=58A6FF&line=58A6FF&point=FFFFFF&area=true&area_color=58A6FF&hide_border=true&custom_title=commit%20activity" alt="Commit Activity Graph"/>
-
-<br/>
-
-<img src="https://raw.githubusercontent.com/SOHAM240104/SOHAM240104/output/github-contribution-grid-snake-dark.svg" alt="Snake contribution graph"/>
 
 </div>
 
