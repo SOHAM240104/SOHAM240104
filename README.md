@@ -98,15 +98,31 @@ End-to-end voice layer on top of an agentic assistant: **fine-tuned Whisper** fo
 
 ---
 
-### github at a glance
+### github stats
 
 <div align="center">
-  <img height="165" src="https://github-readme-stats.vercel.app/api?username=SOHAM240104&show_icons=true&theme=dark&hide_border=true&count_private=true&bg_color=0D1117&title_color=58A6FF&icon_color=58A6FF&text_color=C9D1D9" alt="GitHub Stats"/>
-  <img height="165" src="https://github-readme-stats.vercel.app/api/top-langs/?username=SOHAM240104&layout=compact&theme=dark&hide_border=true&bg_color=0D1117&title_color=58A6FF&text_color=C9D1D9" alt="Top Languages"/>
-</div>
 
-<div align="center">
-  <img src="https://streak-stats.demolab.com?user=SOHAM240104&theme=dark&hide_border=true&background=0D1117&ring=58A6FF&fire=58A6FF&currStreakLabel=58A6FF" alt="GitHub Streak"/>
+<a href="https://github.com/ryo-ma/github-profile-trophy">
+  <img src="https://github-profile-trophy.vercel.app/?username=SOHAM240104&theme=darkhub&no-frame=true&row=1&column=7&margin-w=8&margin-h=8" alt="GitHub Trophies"/>
+</a>
+
+<br/>
+
+<img height="180" src="https://github-readme-stats.vercel.app/api?username=SOHAM240104&show_icons=true&theme=dark&hide_border=true&include_all_commits=true&count_private=true&bg_color=0D1117&title_color=58A6FF&icon_color=58A6FF&text_color=C9D1D9&ring_color=58A6FF" alt="GitHub Stats"/>
+<img height="180" src="https://github-readme-stats.vercel.app/api/top-langs/?username=SOHAM240104&layout=compact&theme=dark&hide_border=true&langs_count=8&bg_color=0D1117&title_color=58A6FF&text_color=C9D1D9" alt="Top Languages"/>
+
+<br/>
+
+<img src="https://streak-stats.demolab.com?user=SOHAM240104&theme=dark&hide_border=true&background=0D1117&ring=58A6FF&fire=F78166&currStreakLabel=58A6FF&sideLabels=C9D1D9&dates=8B949E" alt="GitHub Streak"/>
+
+<br/>
+
+<img width="100%" src="https://github-readme-activity-graph.vercel.app/graph?username=SOHAM240104&bg_color=0D1117&color=58A6FF&line=58A6FF&point=FFFFFF&area=true&area_color=58A6FF&hide_border=true&custom_title=commit%20activity" alt="Commit Activity Graph"/>
+
+<br/>
+
+<img src="https://raw.githubusercontent.com/SOHAM240104/SOHAM240104/output/github-contribution-grid-snake-dark.svg" alt="Snake contribution graph" />
+
 </div>
 
 ---
