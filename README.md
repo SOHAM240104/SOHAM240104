@@ -4,8 +4,8 @@
 
 **Software & AI Engineer** · building systems that see, listen, and reason
 
-I work on **multi-modal AI**, **agentic workflows**, and **backends that stay fast under real load**.  
-Most days I'm wiring models into products people can actually trust — deepfake forensics, disaster response, voice interfaces.
+I work on **multi-modal AI**, **agentic workflows**, **probabilistic ML**, and **backends that stay fast under real load**.  
+Most days I'm wiring models into products people can actually trust — energy market forecasting, deepfake forensics, disaster response, voice interfaces.
 
 *Anna University (CEG) · building in the open @ [SOHAM240104](https://github.com/SOHAM240104)*
 
@@ -21,8 +21,8 @@ Most days I'm wiring models into products people can actually trust — deepfake
 
 ### what I care about
 
-I like problems where **perception meets judgment** — when a model has to look at a video, hear a clip, read a claim, and still leave a human with evidence they can act on.  
-I also care about the unglamorous half: clean APIs, honest latency, and pipelines that don't fall apart outside the demo.
+I like problems where **uncertainty has to be honest** — whether that's a price band for tomorrow's IEX DAM, a deepfake score with receipts, or an agent that prefers tools over guessing.  
+I also care about the unglamorous half: clean APIs, deploy gates, and pipelines that don't fall apart outside the demo.
 
 ---
 
@@ -47,7 +47,24 @@ I also care about the unglamorous half: clean APIs, honest latency, and pipeline
 
 <br/>
 
-#### 01 · Multimodal Disinformation & Scam Verification Engine
+#### 01 · Energy Market Forecasting & VPPA Analytics
+> *A single price point isn't enough — buyers need bands, paths, and settlement risk they can negotiate with.*
+
+Production Django backend for **Indian electricity market analytics**: short-term **IEX DAM** forecasts with P10/P50/P90 bands, long-horizon CAGR vs Ornstein–Uhlenbeck paths, and a **VPPA Monte Carlo** engine (1,000 reproducible paths → settlement distributions). Wrapped with a RAG + tool-calling assistant so operators can ask the market questions without leaving the product.
+
+**Architecture highlights**
+- SARIMAX point forecast → quantile regression bands → seasonal / conformal calibration  
+- Long-horizon CAGR vs OU model selection via walk-forward backtests + deploy gates  
+- VPPA settlement sim: strike scenarios, net P25/P50/P75, year-by-year bands  
+- Streaming chat with `pgvector` RAG and live market tools (DAM/GDAM, VWAP, fair-value)
+
+`Django` · `DRF` · `statsmodels` · `scikit-learn` · `LangChain` · `Gemini` · `PostgreSQL` · `Celery` · `Docker`
+
+🔗 [public overview](https://github.com/SOHAM240104/energy-forecasting-overview) · backend private
+
+<br/>
+
+#### 02 · Multimodal Disinformation & Scam Verification Engine
 > *When a clip looks real and a message feels urgent — I want the system to leave receipts, not vibes.*
 
 Built a verification stack that fuses **audio-only** and **audio-visual** deepfake signals (NOMA + AVH-Align / AV-HuBERT), then layers in scam / claim checking for text and screenshots. Scores are calibrated and fused with reliability weighting; optional **Grad-CAM** mouth-ROI overlays and an **evidence bundle** (hashes, extracted audio, ROI video, predictions) make outputs reviewable — not just a red/green badge.
@@ -64,7 +81,7 @@ Built a verification stack that fuses **audio-only** and **audio-visual** deepfa
 
 <br/>
 
-#### 02 · YOLOv8 Real-time Disaster Response & Pathfinding System
+#### 03 · YOLOv8 Real-time Disaster Response & Pathfinding System
 > *Detect first. Route second. Seconds matter when the map is changing.*
 
 Computer-vision pipeline for on-the-ground disaster scenes: **YOLOv8** for real-time hazard / victim / obstacle detection, paired with graph-based **pathfinding** so responders get actionable routes — not just bounding boxes. Informed by geospatial risk work (multi-source landslide assessment) and earlier campus navigation graphs in C++.
@@ -81,7 +98,7 @@ Computer-vision pipeline for on-the-ground disaster scenes: **YOLOv8** for real-
 
 <br/>
 
-#### 03 · LLM-Enhanced Voice Interface with Fine-Tuned Whisper
+#### 04 · LLM-Enhanced Voice Interface with Fine-Tuned Whisper
 > *Voice should feel like talking to a patient friend — not fighting an IVR.*
 
 End-to-end voice layer on top of an agentic assistant: **fine-tuned Whisper** for robust ASR, then LLM + tool-calling for intent, retrieval, and calm replies. Same spirit as the Saksham / Care work — short sentences, mode-aware routing (support vs scam), and tools preferred over guessing.
@@ -132,7 +149,7 @@ End-to-end voice layer on top of an agentic assistant: **fine-tuned Whisper** fo
 
 ### currently exploring
 
-agent orchestration · local privacy gates for LLMs · MCP tooling · search / retrieval products that feel conversational without inventing facts
+agent orchestration · energy / market probabilistic systems · local privacy gates for LLMs · MCP tooling · search that stays grounded
 
 ---
 
