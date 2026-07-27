@@ -115,10 +115,8 @@ End-to-end voice layer on top of an agentic assistant: **fine-tuned Whisper** fo
 
 <br/>
 
-<img width="49%" src="https://github-profile-summary-cards.vercel.app/api/cards/stats?username=SOHAM240104&theme=github_dark" alt="Stats card"/>
 <img width="49%" src="https://github-profile-summary-cards.vercel.app/api/cards/repos-per-language?username=SOHAM240104&theme=github_dark" alt="Repos per language"/>
 <img width="49%" src="https://github-profile-summary-cards.vercel.app/api/cards/most-commit-language?username=SOHAM240104&theme=github_dark" alt="Most commit language"/>
-<img width="49%" src="https://github-profile-summary-cards.vercel.app/api/cards/productive-time?username=SOHAM240104&theme=github_dark&utcOffset=5.5" alt="Productive time"/>
 
 <br/>
 
