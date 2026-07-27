@@ -126,6 +126,14 @@ End-to-end voice layer on top of an agentic assistant: **fine-tuned Whisper** fo
 
 <img width="100%" src="https://github-readme-activity-graph.vercel.app/graph?username=SOHAM240104&bg_color=0D1117&color=58A6FF&line=58A6FF&point=FFFFFF&area=true&area_color=58A6FF&hide_border=true&custom_title=commit%20activity" alt="Commit Activity Graph"/>
 
+<br/>
+
+<picture>
+  <source media="(prefers-color-scheme: dark)" srcset="https://raw.githubusercontent.com/SOHAM240104/SOHAM240104/output/github-contribution-grid-snake-blue.gif"/>
+  <source media="(prefers-color-scheme: light)" srcset="https://raw.githubusercontent.com/SOHAM240104/SOHAM240104/output/github-contribution-grid-snake.gif"/>
+  <img alt="github contribution snake" src="https://raw.githubusercontent.com/SOHAM240104/SOHAM240104/output/github-contribution-grid-snake-blue.gif"/>
+</picture>
+
 </div>
 
 ---
